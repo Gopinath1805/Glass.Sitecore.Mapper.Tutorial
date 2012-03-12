@@ -69,6 +69,8 @@
     </Compile>
     <Compile Include="Models\Home.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tutorial2\Colours.cs" />
+    <Compile Include="Tutorial2\Template2BasicFields.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Default.aspx" />

@@ -24,5 +24,8 @@ namespace Glass.Sitecore.Mapper.Tutorial.Tutorial2
         [SitecoreField]
         public virtual int Price { get; set; }
 
+        [SitecoreField]
+        public virtual Colours Color { get; set; }
+
     }
 }

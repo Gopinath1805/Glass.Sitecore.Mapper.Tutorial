@@ -1,0 +1,20 @@
+@inherits Glass.Sitecore.Mapper.Razor.Web.Ui.DynamicTemplate
+
+<div>
+    <h1>@Model.Title</h1>
+    @Raw(Model.Content.Editable())
+    <p>
+        @Model.CreatedDate
+    </p>
+    <p>
+        @Model.DisplayInLeftMenu.Editable()
+    </p>
+</div>
+<div>
+    <ul>
+    @foreach (var child in Model.Children)
+    {
+        <li><a href="@child.Url">@child.Title</a></li>
+    }
+    </ul>
+</div>

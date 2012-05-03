@@ -60,14 +60,15 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="layouts\GlassTutorial1.ascx.cs">
-      <DependentUpon>GlassTutorial1.ascx</DependentUpon>
+    <Compile Include="layouts\DemoLayout.ascx.cs">
+      <DependentUpon>DemoLayout.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="layouts\GlassTutorial1.ascx.designer.cs">
-      <DependentUpon>GlassTutorial1.ascx</DependentUpon>
+    <Compile Include="layouts\DemoLayout.ascx.designer.cs">
+      <DependentUpon>DemoLayout.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Models\Home.cs" />
+    <Compile Include="Models\DemoItem.cs" />
+    <Compile Include="Models\OtherItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -75,7 +76,7 @@
     <Content Include="default.css" />
     <Content Include="default.js" />
     <Content Include="Global.asax" />
-    <Content Include="layouts\GlassTutorial1.ascx" />
+    <Content Include="layouts\DemoLayout.ascx" />
     <Content Include="layouts\Sample Inner Sublayout.ascx" />
     <Content Include="layouts\Sample layout.aspx" />
     <Content Include="layouts\Sample Sublayout.ascx" />
